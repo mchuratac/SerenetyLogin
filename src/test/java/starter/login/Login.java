@@ -32,11 +32,11 @@ class Login{
                 );
     }
 
-    public static Performable HomeCerrarSesion() {
+    public static Performable LHomeCerrarSesion() {
         return Task.where("{0} cerrar la sesion '" , Click.on(HomePage.BTN_CERRAR));
     }
 
-    public static Performable CerrarSesion() {
+    public static Performable CPageCerrarSesion() {
         return Task.where("{0} cerrar la sesion '" ,
         Scroll.to(this.BTN_CONFIR_CERRAR),
         Click.on(this.BTN_CONFIR_CERRAR)

@@ -21,14 +21,14 @@ public class LoginStepDefinitions {
     @When("{actor} ingresa el usuario {string} y la contraseña {string} y le da click en el botón Ingresar")
     public void elIngresaElUsuarioNombreUsuario(Actor actor, String usuario, String contraseña) {
         actor.attemptsTo(
-                LoginHomePage.Login(usuario, contraseña)
+                Login.Login(usuario, contraseña)
         );
     }
 
     @When("{actor} ingresa el usuario ([^\"]*) y la contraseña ([^\"]*) y le da click en el botón Ingresar")
     public void elIngresaElUsuarioNombreUsuarioOutline(Actor actor, String usuario, String contraseña) {
         actor.attemptsTo(
-                LoginHomePage.Login(usuario, contraseña)
+                Login.Login(usuario, contraseña)
         );
     }
 
@@ -42,7 +42,6 @@ public class LoginStepDefinitions {
 
     @Then("{actor} cierra la sesión")
     public void heCierraLaSesión(Actor actor ) {
-        actor.attemptsTo(LoginHomePage.CerrarSesion(), CerrarSesionPage.CerrarSesion()
-        );
+        actor.attemptsTo(Login.LHomeCerrarSesion(), Login.CPageCerrarSesion());
     }
 }
