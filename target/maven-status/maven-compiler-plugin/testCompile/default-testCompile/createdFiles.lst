@@ -1,10 +1,7 @@
-starter\stepdefinitions\LoginStepDefinitions.class
-starter\login\CerrarSesion.class
-starter\login\LoginHomePage.class
-starter\login\HomePage.class
-starter\login\LoginForm.class
 starter\LoginTestSuite.class
 starter\stepdefinitions\ParameterDefinitions.class
 starter\navigation\NavigateToHome.class
 starter\navigation\SGCREDHomePage.class
-starter\login\CerrarSesionPage.class
+starter\login\Login.class
+starter\stepdefinitions\LoginStepDefinitions.class
+starter\login\HomePage.class

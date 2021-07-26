@@ -5,10 +5,10 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.ensure.Ensure;
-import starter.login.CerrarSesion;
-import starter.login.CerrarSesionPage;
+import starter.login.*;
+
 import starter.login.HomePage;
-import starter.login.LoginHomePage;
+
 import starter.navigation.NavigateToHome;
 
 public class LoginStepDefinitions {
@@ -32,6 +32,12 @@ public class LoginStepDefinitions {
         );
     }
 
+    @Then("{actor} se cierra el icono del Popup")
+    public void heSeCierraElIconoDelPopup(Actor actor) {
+        actor.attemptsTo(Login.CERRAR_POPUD()
+        );
+    }
+
 
     @Then("{actor} visualiza en la página home del SGCRED el texto {string}")
     public void teLlevaALaHomeDelSGCRED(Actor actor, String TextoBienvenida) {
@@ -42,6 +48,9 @@ public class LoginStepDefinitions {
 
     @Then("{actor} cierra la sesión")
     public void heCierraLaSesión(Actor actor ) {
-        actor.attemptsTo(Login.LHomeCerrarSesion(), Login.CPageCerrarSesion());
+        actor.attemptsTo(Login.LHomeCerrarSesion(), Login.CPageCerrarSesion()
+        );
     }
+
+
 }

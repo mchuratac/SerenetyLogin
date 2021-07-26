@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Ingresar al Sistema SGCRED
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 40.101 s - in Ingresar al Sistema SGCRED
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 38.574 s - in Ingresar al Sistema SGCRED

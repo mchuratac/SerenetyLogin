@@ -8,6 +8,7 @@ Feature: Ingresar al Sistema SGCRED
   Scenario Outline: Loguearme a la home de SGCRED
     Given Usuario accede a la ruta de SGCRED
     When he ingresa el usuario "<nombreUsuario>" y la contraseña "<contraseña>" y le da click en el botón Ingresar
+    Then he se cierra el icono del Popup
     Then he visualiza en la página home del SGCRED el texto "Usuario"
     Then he cierra la sesión
     Examples:

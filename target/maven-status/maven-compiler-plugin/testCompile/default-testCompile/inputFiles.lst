@@ -1,10 +1,7 @@
-C:\Repo\TPidoWeb\src\test\java\starter\LoginTestSuite.java
-C:\Repo\TPidoWeb\src\test\java\starter\navigation\SGCREDHomePage.java
-C:\Repo\TPidoWeb\src\test\java\starter\stepdefinitions\LoginStepDefinitions.java
-C:\Repo\TPidoWeb\src\test\java\starter\login\LoginForm.java
-C:\Repo\TPidoWeb\src\test\java\starter\login\CerrarSesion.java
-C:\Repo\TPidoWeb\src\test\java\starter\navigation\NavigateToHome.java
-C:\Repo\TPidoWeb\src\test\java\starter\login\CerrarSesionPage.java
-C:\Repo\TPidoWeb\src\test\java\starter\stepdefinitions\ParameterDefinitions.java
-C:\Repo\TPidoWeb\src\test\java\starter\login\LoginHomePage.java
-C:\Repo\TPidoWeb\src\test\java\starter\login\HomePage.java
+C:\Repo\SerenetyLogin\src\test\java\starter\navigation\NavigateToHome.java
+C:\Repo\SerenetyLogin\src\test\java\starter\stepdefinitions\ParameterDefinitions.java
+C:\Repo\SerenetyLogin\src\test\java\starter\login\Login.java
+C:\Repo\SerenetyLogin\src\test\java\starter\login\HomePage.java
+C:\Repo\SerenetyLogin\src\test\java\starter\navigation\SGCREDHomePage.java
+C:\Repo\SerenetyLogin\src\test\java\starter\stepdefinitions\LoginStepDefinitions.java
+C:\Repo\SerenetyLogin\src\test\java\starter\LoginTestSuite.java
